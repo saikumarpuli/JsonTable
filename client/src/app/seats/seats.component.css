@@ -3,3 +3,11 @@
   padding-left: 45%;
   padding-right: 40%;
 }
+.fa-stack {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.fa-stack.active {
+  color: red;
+}
