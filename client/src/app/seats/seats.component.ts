@@ -11,9 +11,6 @@ export class SeatsComponent implements OnInit {
 
   ngOnInit() {
   }
-  toggle = true;
-  status = "Enable";
-
   seats =[
     {
       "s": 1,
@@ -80,6 +77,12 @@ export class SeatsComponent implements OnInit {
     },
     {
       "s": 22,
+    },
+    {
+      "s": 23,
+    },
+    {
+      "s": 24,
     }]
 
   get(seat: { s: number }) {
