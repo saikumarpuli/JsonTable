@@ -1,7 +1,7 @@
 <div class="container mt-5 bg-info">
    <span *ngFor="let seat of seats">
      <td>
-       <button class="button  m-4 " (click)="get(seat)">{{seat.s}}</button>
+       <button class="button  m-4 " (click)="get(seat,toggle)" >{{seat.s}}</button>
      </td>
    </span>
 </div>
