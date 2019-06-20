@@ -17,8 +17,6 @@ export class SeatsComponent implements OnInit {
   get(seat: { s: number }) {
     console.log(seat.s);
     this.isActive = !this.isActive;
-
   }
-
 }
 
